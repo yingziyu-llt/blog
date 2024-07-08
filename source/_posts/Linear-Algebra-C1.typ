@@ -52,7 +52,7 @@ List 和 Set 的区别是，List 中的元素有序，Set 中的元素无序;Lis
 
 数乘 $lambda * (a_1,a_2,dots,a_n) = (lambda a_1,lambda a_2,dots,lambda a_n)$
 
-=== 向量空间(Vector Space)
+== 向量空间(Vector Space)
 
 向量空间要求有以下几个必备条件：
 
@@ -67,11 +67,57 @@ List 和 Set 的区别是，List 中的元素有序，Set 中的元素无序;Lis
 + 数乘可交换$lambda mu alpha= mu lambda alpha$
 + 数乘可结合$lambda mu alpha = lambda (mu alpha)$
 + 数乘可分配$(lambda + mu)alpha = lambda alpha + mu alpha$,$lambda (alpha + beta) = lambda alpha + lambda beta$
-+ 数乘有$1$元,$1 alpha = alpha$
-+ 加法有$0$元,$0 + alpha = alpha$
++ 数乘有幺元$1$,$1 alpha = alpha$
++ 加法有零元$0 in VV$,$0 + alpha = alpha$
++ 加法有负元,$alpha + (-alpha) = 0$
 
 那么称$S$为向量空间(Vector Space)。
 
 向量空间的元素称为点(point)或者向量(vector)。
 
+向量空间的形式和向量空间数乘的数域是有很大关系的。我们称$S$是在$FF$上的向量空间(vector space over $FF$),在$RR$上的叫实向量空间，在$CC$上的叫做复向量空间。
 
+在前面我们说的$VV$一般是一个传统意义上的向量集合$FF^n$(n可以是无穷，称为无穷维向量空间)，下面我们讨论和函数相关的向量空间。
+
+*Definition*
+
+我们记$FF^S$($FF = RR "or" CC$,$S$是一个集合)为从$S->FF$的映射
+
+取$f,g in FF^S$,加法定义为$(f+g) (x) = f (x) + g (x)$,数乘定义为$lambda in FF,(lambda f)(x) = lambda f (x)$
+
+
+定理
+
++ 加法单位元唯一
++ 加法负元唯一
++ $0$数乘一个向量为零元
++ 任何数乘零元为零元
++ $-1$数乘任何向量为其负元
+
+== 子空间(Subspace)
+
+=== 子空间
+设$V$是一个线性空间，若线性空间$U$中的所有元素都在$V$里，且二者运算相同（要求有向量加法和数乘），就称$U$是$V$的一个子空间。
+
+*Conditions for Subspace*
+
++ 有零元(additive identity)$0 in U$
++ 加法封闭(closed under addition)$alpha,beta in U;alpha + beta in U$
++ 数乘封闭(closed under scalar multiplication)$alpha in U,lambda in FF;lambda alpha in U$
+
+=== 子空间的和(Sum)
+*Definition*
+
+定义运算 + ，满足$U_1+U_2+dots+U_n = {u_1+u_2+dots+u_n : u_1 in U_1,u_2 in U_2,dots,u_n in U_n}$
+
+子空间的和是包含那些子空间的最小子空间。
+
+=== 子空间的直和(Direct Sum)
+*Definition*
+和$U=U_1+U_2+...+U_n$成为*直和*，若$U$中每个元素只能被唯一表示成$u_1+u_2+dots+u_n$，其中$u_i in U_i$。记直和的符号为$plus.circle$
+
+*Conditions for Direct Sum*
+
+$U_1 + U_2 + dots + U_n$是直和$arrow.l.r.double$ $0$只有唯一表出方式:$u_1=u_2=dots=u_n=0$ $arrow.l.r.double$ $U sect V = {0}$
+
+完结撒花！

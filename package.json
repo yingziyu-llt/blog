@@ -26,6 +26,6 @@
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
     "hexo-theme-fluid": "^1.9.7",
-    "hexo-renderer-typst": "^0.4.1"
+    "@myriaddreamin/typst-ts-renderer": "^0.4.1"
   }
 }
