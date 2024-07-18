@@ -12,6 +12,9 @@
     "version": "6.3.0"
   },
   "dependencies": {
+    "@myriaddreamin/typst-ts-node-compiler": "^0.5.0-rc6",
+    "@myriaddreamin/typst-ts-renderer": "^0.5.0-rc6",
+    "@myriaddreamin/typst.ts": "^0.5.0-rc6",
     "hexo": "^6.3.0",
     "hexo-asset-image": "^1.0.0",
     "hexo-cli": "^4.3.0",
@@ -26,6 +29,7 @@
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^2.0.0",
     "hexo-theme-fluid": "^1.9.7",
-    "@myriaddreamin/typst-ts-renderer": "^0.4.1"
+    "hexo-renderer-typst": "^0.5.0-rc6"
+    
   }
 }
