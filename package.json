@@ -30,6 +30,5 @@
     "hexo-server": "^2.0.0",
     "hexo-theme-fluid": "^1.9.7",
     "hexo-renderer-typst": "^0.5.0-rc6"
-    
   }
 }

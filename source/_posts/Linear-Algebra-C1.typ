@@ -1,4 +1,16 @@
-= 线性代数学习笔记 向量空间(Vector Space)
+#set document(title:"线性代数学习笔记 向量空间(Vector Space)")
+#set document(date: datetime(
+    year:2024,
+    month:7,
+    day:7
+))
+#set page(margin: (
+  top: 0cm,
+  bottom: 0cm,
+  x: 0cm,
+))
+#set text(size: 16pt)
+
 
 == Introduction
 

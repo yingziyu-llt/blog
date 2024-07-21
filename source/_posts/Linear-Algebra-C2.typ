@@ -1,5 +1,11 @@
-= 线性代数 有限维向量空间
+#set document(title:"线性代数 有限维向量空间",date: datetime(year: 2024,month: 7,day: 11))
 
+#set page(margin: (
+  top: 0cm,
+  bottom: 0cm,
+  x: 0cm,
+))
+#set text(size: 16pt)
 
 == 线性组合和张成
 
@@ -140,5 +146,4 @@ Find two basis $v_1,v_2,dots,v_n$ and $u_1,u_2,dots,u_m$. They all spans $V$. So
 长度为$dim V$的线性无关向量组就是$V$的一组基,长度为$dim V$能张成$V$的一组向量就是$V$的一组基
 
 维数和公式:$dim (V+U)=dim V + dim U - dim (V sect U)$
-
 
