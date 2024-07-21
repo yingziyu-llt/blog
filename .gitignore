@@ -3,3 +3,4 @@ node_modules/
 db.json
 *.lock
 .github/
+.deploy_git/
