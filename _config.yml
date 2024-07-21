@@ -105,4 +105,4 @@ theme: fluid
 deploy:
   type: git
   repository: git@github.com:yingziyu-llt/yingziyu-llt.github.io.git
-  branch: master
+  branch: main

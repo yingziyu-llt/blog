@@ -4,3 +4,4 @@ db.json
 *.lock
 .github/
 .deploy_git/
+db.json
