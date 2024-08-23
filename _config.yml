@@ -29,10 +29,11 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render: 
-  - 'linear_algebra/**'
-  - 'ml/**'
-  - '*/chapter*'
-  - '*/template*'
+  - '_posts/linear_algebra/content/**'
+  - '_posts/ml/content/**'
+  - '_posts/*/chapter*'
+  - '_posts/*/template*'
+  - '_posts/*/resource*'
 
 # Writing
 new_post_name: :title.md # File name of new posts
